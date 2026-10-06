@@ -5,4 +5,4 @@ KELAS: D (SEMESTER 3)
 TEMA PROYEK AKADEMIK
 
 "Lingkup Layanan"
-Sistem akademik kampus mz mengelola data civitas
+Sistem akademik kampus mz mengelola data civitas dan kreativitas
