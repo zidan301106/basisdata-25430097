@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS siakad_097_uji;
+CREATE DATABASE siakad_097_uji;
+USE siakad_097_uji;
+
+SOURCE p05_ddl_25430097.sql;
+SOURCE p06_data_25430097.sql;

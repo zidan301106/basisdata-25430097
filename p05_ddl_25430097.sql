@@ -6,7 +6,7 @@
 -- Tema : Akademik (siakad_097)
 -- ============================================================
 
-USE siakad_097;
+-- USE siakad_097;
 
 -- 1. DROP TABLE IF EXISTS (Urutan: Tabel Anak -> Tabel Induk)
 DROP TABLE IF EXISTS detail_krs;
@@ -47,7 +47,7 @@ CREATE TABLE mata_kuliah (
     kode_mk VARCHAR(10) NOT NULL,
     nama_mk VARCHAR(100) NOT NULL,
     sks TINYINT NOT NULL,
-    semester_paket TINYINT NOT NULL,
+    semester_paket TINYINT NOT NULL DEFAULT 1,
     PRIMARY KEY (id_mk),
     CONSTRAINT uq_mk_kode UNIQUE (kode_mk),
     CONSTRAINT ck_mk_sks CHECK (sks >= 1 AND sks <= 6)

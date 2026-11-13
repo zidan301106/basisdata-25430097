@@ -10,7 +10,7 @@
 --   - Tabel Transaksi min. 80 baris (10 x P = 80)
 -- ===================================================
 
-USE siakad_097;
+-- USE siakad_097;
 
 -- Nonaktifkan pemeliharaan integritas referensial sementara untuk reset data bersih
 SET FOREIGN_KEY_CHECKS = 0;
